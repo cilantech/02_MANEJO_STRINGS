@@ -129,4 +129,21 @@ console.info(mensaje.trim())
 // console.info(mensaje.repeat(3))
 
 //relleno de strings///////////////////////////////////////////////////////
+// const mensaje = "1234"
+// document.write(mensaje)
+// console.info(mensaje.padStart(8,"#"))
+// console.info(mensaje.padEnd(8,"*"))
+
+
+//// fragmentar string /////////////////////////////////////////////////////////////
+const mensaje = "ser un coder de riwi cambia tu mundo"
+document.write(mensaje)
+console.info(mensaje.substring(4,12))
+console.info(mensaje.substring(12))
+console.info(mensaje.slice(12))
+console.info(mensaje.slice(4,12))
+console.table(mensaje.split(""))
+
+
+
 
