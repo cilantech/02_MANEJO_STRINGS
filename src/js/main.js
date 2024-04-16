@@ -109,9 +109,24 @@ console.log(mensaje.endsWith(""))
 // console.log(mensaje.endsWith("a"))
 
 /// limpieza de informacion
+/*
 const mensaje = "             hola mundo               "
 console.info(mensaje)
 mensaje.trimStart()
 console.info(mensaje.trimStart())
 console.info(mensaje.trimEnd())
 console.info(mensaje.trim())
+*/
+
+
+/// remplazo de caracteres
+
+// const mensaje = "soy un coder de riwi, y en riwi soy feliz, por que  riwi cambia mundos  "
+// document.write(mensaje)
+// //console.info(mensaje.replace("coder","programador"))
+// console.info(mensaje.replaceAll("riwi","centro del entrenamiento pro"))
+// console.info(mensaje.replaceAll(/[aeuo]/g,"a"))
+// console.info(mensaje.repeat(3))
+
+//relleno de strings///////////////////////////////////////////////////////
+
