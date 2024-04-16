@@ -1,10 +1,10 @@
 //Declaration de strings
 
-let comillaSimple='hola mundo'
-let comillasDobles="hola 'mundo'"
+let comillaSimple = 'hola mundo'
+let comillasDobles = "hola 'mundo'"
 let fullName = "Herbin Esteban Restrepo"
 const cantidadDeCaracteres = fullName.length
-
+/*
 
 console.info(comillaSimple)
 console.info(comillasDobles)
@@ -12,5 +12,43 @@ console.info("la cantidad de caracteres =",cantidadDeCaracteres)
 
 //Extraccion de caracteres
 
-let extraccionDelaletraE= fullName[7]
+let extraccionDelaletraE= fullName[7] //si el numero esta fuera del rango marca undifine
+let extraccionDelaletraE2= fullName.charAt(10)
 console.info(extraccionDelaletraE)
+console.info(extraccionDelaletraE2)
+
+
+console.info(fullName[0])
+console.info(fullName[1])
+console.info(fullName[2])
+console.info(fullName[3])
+console.info(fullName[4])
+console.info(fullName[5])
+
+console.info(fullName.charAt(0))
+console.info(fullName.charAt(1))
+console.info(fullName.charAt(2))
+console.info(fullName.charAt(3))
+console.info(fullName.charAt(4))
+console.info(fullName.charAt(5))
+*/
+
+let namePrincipal = "javier"
+let nameL = "combita"
+const email = "terreneitor@gmail.com"
+let address = "calle siempre # viva-56"
+let callNumber = "546254165165"
+const age = "58"
+
+
+//console.info("Hola mundo mi nombre es " + namePrincipal + " " + nameL + " " + email)
+//console.info("Hola mundo mi nombre es", namePrincipal, nameL, email)
+//console.info(`Hola mundo mi nombre es ${namePrincipal} ${nameL} ${email}`)
+
+const header = `
+<header>
+        <h1>Hello word</h1>
+        <p> Hola mundo, mi nombre es ${namePrincipal} ${nameL}, mi correo es ${email} y me encuentras en  ${address}. Si no puedes acercarte me puesdes contactar ${ callNumber} y por ultimo tengo ${ age}</p>
+</header>
+`
+document.write(header)
