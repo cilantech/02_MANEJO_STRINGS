@@ -70,7 +70,7 @@ const mensaje2 = "hola mundos"
 
 document.write(mensaje)
 document.write(mensaje2)
-*/
+
 
 //Trasformacion//////////////////////////////////////////////////////
 const mensaje = "HOLA MUNDO"
@@ -88,3 +88,30 @@ document.write(mensaje)
 
 console.info(mensaje.concat(mensaje2))// unir variables
 console.info(mensaje+mensaje2)
+
+*/
+// check informacion////////////////////////////////////////////////////////////////////////////
+//const mensaje ="hola mundo" 
+/*
+console.log(mensaje.startsWiths("familia"))//false
+console.log(mensaje.startsWith("hola"))
+console.log(mensaje.includes("mundo"))
+console.log(mensaje.includes("soy"))
+console.log(mensaje.endsWith(""))
+console.log(mensaje.endsWith(""))
+*/
+
+// const mensaje ="javier combita" 
+// document.write(mensaje)
+
+// console.log(mensaje.startsWith("a"))
+// console.log(mensaje.includes("he"))
+// console.log(mensaje.endsWith("a"))
+
+/// limpieza de informacion
+const mensaje = "             hola mundo               "
+console.info(mensaje)
+mensaje.trimStart()
+console.info(mensaje.trimStart())
+console.info(mensaje.trimEnd())
+console.info(mensaje.trim())
