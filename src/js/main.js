@@ -10,7 +10,7 @@ console.info(comillaSimple)
 console.info(comillasDobles)
 console.info("la cantidad de caracteres =",cantidadDeCaracteres)
 
-//Extraccion de caracteres
+//Extraccion de caracteres//////////////////////////////////////////////////////////////////////////
 
 let extraccionDelaletraE= fullName[7] //si el numero esta fuera del rango marca undifine
 let extraccionDelaletraE2= fullName.charAt(10)
@@ -48,7 +48,43 @@ const age = "58"
 const header = `
 <header>
         <h1>Hello word</h1>
-        <p> Hola mundo, mi nombre es ${namePrincipal} ${nameL}, mi correo es ${email} y me encuentras en  ${address}. Si no puedes acercarte me puesdes contactar ${ callNumber} y por ultimo tengo ${ age}</p>
+        <p> Hola mundo, mi nombre es ${namePrincipal} ${nameL}, mi correo es <strong> ${email} </strong> y me encuentras en  ${address}. Si no puedes acercarte me puesdes contactar ${ callNumber} y por ultimo tengo ${ age}</p>
 </header>
 `
+
+
+/*
+
+const header = `
+<header>
+        <h1>Hello word</h1>
+        <p> Hola mundo, mi nombre es namePrincipal nameL, mi correo es email y me encuentras en  address. Si no puedes acercarte me puesdes contactar callNumbery por ultimo tengo  age</p>
+</header>
+`
+
 document.write(header)
+
+
+const mensaje = "hola mundo"
+const mensaje2 = "hola mundos"
+
+document.write(mensaje)
+document.write(mensaje2)
+*/
+
+//Trasformacion//////////////////////////////////////////////////////
+const mensaje = "HOLA MUNDO"
+const mensaje2 = "today is a new day"
+//console.info(mensaje.toUpperCase())
+//console.info(mensaje.toLowerCase())
+
+document.write(mensaje)
+document.write(mensaje2)
+
+console.info(mensaje2.toUpperCase())
+console.info(mensaje.toLowerCase())
+
+document.write(mensaje)
+
+console.info(mensaje.concat(mensaje2))// unir variables
+console.info(mensaje+mensaje2)
